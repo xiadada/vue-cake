@@ -25,7 +25,7 @@ const routes = [
 		path: '/',
 		name: 'homeLink',
 		components: {
-			default: Home,//主页默认真是这个组件内容
+			default: Home,//主页默认是这个组件内容，且可以复用这些组件
 			'orderingGuide': OrderingGuide,
 			'delivery': Delivery,
 			'history': History
